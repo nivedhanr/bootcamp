@@ -44,9 +44,9 @@ public class addition {
                 case 4:
                     System.out.println("Division");
                     System.out.println("Enter the first number:");
-                    float d = s.nextFloat();
+                    int d = s.nextInt();
                     System.out.println("Enter the second number:");
-                    float f = s.nextFloat();
+                    int f = s.nextInt();
                     try{
                         float results = d / f;
                         System.out.println("Result:" + results);
