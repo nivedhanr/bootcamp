@@ -1,4 +1,4 @@
-import java.sql.SQLOutput;
+
 import java.util.Scanner;
 
 public class addition {
@@ -46,9 +46,15 @@ public class addition {
                     System.out.println("Enter the first number:");
                     float d = s.nextFloat();
                     System.out.println("Enter the second number:");
-                    float e = s.nextFloat();
-                    float results = d / e;
-                    System.out.println("Result:" + results);
+                    float f = s.nextFloat();
+                    try{
+                        float results = d / f;
+                        System.out.println("Result:" + results);
+                    }
+                    catch (ArithmeticException e) {
+                        // Exception handler
+                        System.out.println("Divided by zero operation cannot possible");
+                    }
                     break;
                 case 5:
                     System.out.println("Exit");
