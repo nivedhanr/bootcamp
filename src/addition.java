@@ -22,6 +22,7 @@ public class addition {
                     c = s.nextInt();
                     result = b + c;
                     System.out.println("Result:" + result);
+                    break;
                 case 2:
                     System.out.println("Subtraction");
                     System.out.println("Enter the first number:");
@@ -30,6 +31,7 @@ public class addition {
                     c = s.nextInt();
                     result = b - c;
                     System.out.println("Result:" + result);
+                    break;
                 case 3:
                     System.out.println("Multiplication");
                     System.out.println("Enter the first number:");
@@ -38,6 +40,7 @@ public class addition {
                     c = s.nextInt();
                     result = b * c;
                     System.out.println("Result:" + result);
+                    break;
                 case 4:
                     System.out.println("Division");
                     System.out.println("Enter the first number:");
@@ -46,6 +49,13 @@ public class addition {
                     float e = s.nextFloat();
                     float results = d / e;
                     System.out.println("Result:" + results);
+                    break;
+                case 5:
+                    System.out.println("Exit");
+                    break;
+                default:
+                    System.out.println("Invalid Entry...Please enter your choice");
+                    break;
             }
 
             }while(a!=5);
