@@ -25,6 +25,14 @@ public class addition {
                 c=s.nextInt();
                 result=b-c;
                 System.out.println("Result:"+result);
+            case 3:
+                System.out.println("Multiplication");
+                System.out.println("Enter the first number:");
+                b=s.nextInt();
+                System.out.println("Enter the second number:");
+                c=s.nextInt();
+                result=b*c;
+                System.out.println("Result:"+result);
 
 
         }
